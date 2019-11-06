@@ -1,17 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Unbounce</title>
-<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-<link rel="stylesheet" href="css/style.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-<style>
-    
 body{
 margin:0px;
 font-family: 'Open Sans', sans-serif;
@@ -25,10 +11,7 @@ padding:0px;
 
 }
 .top-ban {
-
     text-align: center;
-    padding: 20px 0px 40px;
-
 }
 
 .top-ban h1 {
@@ -59,7 +42,8 @@ color:#000;
 
     font-family: 'Open Sans', sans-serif;
 
-color: #777;
+color:
+#777;
 
 font-size: 16px;
 
@@ -71,66 +55,31 @@ padding: 20px;
 
 }
 .bannertext{
-padding: 18% 0% 12%;
+padding: 18% 0% 33%;
 }
-
-.banner-text li {
-    
-font-size: 18px;
-
-color: #777;
-
-line-height: 29px;
-}
-
-
 .logo{
 margin-top: 20px;
 
 margin-bottom: 30px;
 }
 .formstyle {
-
-    background: 
-
-rgb(40, 41, 54);
-
-padding: 0px 40px 40px;
-
+background:#ffffffcf;
+padding: 18px 27px 33px;
 position: relative;
-
-top: 0px;
-
-border: 0px solid
-
-    #ffffff54;
-    box-shadow: none;
-
+top: 106px;
+box-shadow: 5px 5px 0px #a70a04;
+border: 13px solid #ffffff54;
 }
-
-.heading {
-
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    color: 
-
-#fff;
-
+.formstyle .heading {
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+color: #000;
 font-size: 21px;
-
 font-weight: 700;
-
-background:
-
-    rgb(37, 156, 167);
-    padding: 10px;
-    text-align: center;
-
 }
-
 .formstyle label{
 font-family: 'Open Sans', sans-serif;
-color: #fff;
+color: #000;
 font-size: 14px;
 font-weight: 400;
 margin-top:12px;
@@ -142,7 +91,7 @@ box-shadow: inset 2px 2px 2px #ccc;
 font-size: 14px;
 }
 .submit{
-background: rgb(228, 79, 61);
+background: #00baf2;
 border: 0px;
 width: 100%;
 height: 50px;
@@ -166,7 +115,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
 #benefits{
-margin:10px 0px;
+margin:75px 0px;
 }
 #benefits h2{
 font-family: 'Open Sans', sans-serif;
@@ -179,75 +128,45 @@ margin-top:0px;
 color:#000;	
 }
 #benefits .heading {
-
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    color: 
-
-#259ca7;
-
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+color: #000;
 font-size: 21px;
-
-text-align: left;
-
-margin-bottom: 10px;
-
+text-align:center;
+margin-bottom:10px;
 font-weight: 700;
-
-background:
-
-    #fff;
-    padding: 0px;
-
 }
 #benefits p{
 font-family: 'Open Sans', sans-serif;
 font-size:15px;
 font-weight:400;
-line-height:24px;
-text-align:left;
+line-height:26px;
+text-align:center;
 }
-.mgb {
-
-    margin-bottom: 25px;
-    width: 100%;
-
+.mgb{
+margin-bottom:25px;
 }
-.box {
-
-    margin-top: 0px;
-    background: 
-
-    #fff;
-    padding: 35px 0px 25px 0px;
-    box-shadow: none;
-
+.box{
+margin-top: 50px;
+background: #f9f9f9;
+padding: 35px 10px 25px 15px;
+box-shadow: 4px 5px 0px #e4e4e4;
 }
-#mainquat {
-
-    background: 
-
-    rgb(37, 156, 167);
-        background-attachment: scroll;
-        background-size: auto;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 20px 0px;
-
+#mainquat{
+background:url(../images/bg3.png) no-repeat;
+background-size:cover;
+background-attachment:fixed;
+padding:75px 0px;
 }
-#mainquat h2 {
-
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 57px;
-    text-align: center;
-    margin-bottom: 15px;
-    margin: 0px;
-    color: 
-
-    #fff;
-
+#mainquat h2{
+font-family: 'Open Sans', sans-serif;
+font-size:43px;
+font-weight:700;
+line-height: 57px;
+text-align:center;
+margin-bottom:15px;
+margin: 0px;
+color:#fff;	
 }
 #hosting{
 margin:75px 0px;
@@ -457,9 +376,9 @@ position:relative;
 margin-top: 57px;
 }
 #footer{
-padding:20px 0px;
+padding:50px 0px;
 margin:0px;
-background:rgb(40, 41, 54);
+background:#f4f4f4;
 }
 #footer ul{
 margin: 27px auto;
@@ -480,14 +399,9 @@ border-right:0;
 }
 #footer p {
 font-family: 'Open Sans', sans-serif;
-
 font-size: 15px;
-
 font-weight: 400;
-
 line-height: 26px;
-
-color: #aaacbc;
 }
 #benifitbg {
 padding:75px 0px;
@@ -740,216 +654,4 @@ padding-top:10%;
 {
 padding-top:10%;
 }
-}    
-    
-    
-</style>
-
-
-</head>
-<body>
-    
-<section id="top-header">
-    
-    <div class="container">
-<div class="row">
-    
-    <div class="col-md-12">
-
-<div class="col-md-6">
-<img src="images/logo-unbounce.png" class="img-responsive logo">  
-</div>
-
-<div class="col-md-6">
-
-<h2 style="float: right">
-<span style="font-size: 12px;">We make quality software development available for everyone</span>
-</h2>
-</div>
-    
-    
-</div>
-
-</div>
-</div>
-    
-</section>    
-
-<div class="container">
-<div class="row">
-
-<div class="top-ban">
-<h1>Join Kodekonveyor's Tidy Up Development</h1>
-<p>Start earning by solving small development task</p>
-</div>
-
-</div>
-</div>
-
-
-
-
-    
-    
-<section id="banner">
-    
-<div class="container">
-<div class="row">
-<div class="clearfix"></div>
-
-
-
-<div style="padding: 0px;" class="col-md-8">
-<img style="float: right;" src="images/banner-top.png" class="img-responsive logo11">  
-<div class="bannertext">
-<p>Our company develops software using TDD (test-driven development). Using a strong architecture design phase we produce small tasks for developers, which can be coded without knowing the whole environment. You, as a coder, after understanding our system, will be able:</p>
-    
-    <ol>
-        <li>Take a task and code it in a short time (0,5-4 hours);</li>
-        <li>Get paid based on the number of test cases, get paid in a short time (within a week);</li>
-        <li>Work from anywhere in the world (in your home or at a beach),</li>
-        <li>Generate extra income while keeping your job, studying as a student or taking care of your child;</li>
-    </ol>
-
-</div>
-</div>
-
-
-
-
-<div class="col-md-4">
-
-<div class="heading">Join our community</div>
-
-<form class="formstyle" method="post" id="post" action="https://market.kodekonveyor.com/market/lead">
-    
-    <span style="color:#fff;display: inline-block;padding: 30px 0px;font-size: 11px;text-align: justify;">This form is prepared to collect information either to be able to keep you up to date on Kode Konveyor or
-collect information necessary for working together</span>
-
-<label>First Name *</label>
-<input type="text" name="firstName"class="form-control field" placeholder="" required>
-<label>Email id *</label>
-<input type="email" name="email" class="form-control field" placeholder="" required>
-<label>What are you interested in?</label>
-<select class="form-control field" id="" name="interest">
-      <option>Please Choose</option>
-      <option value="To receive update on Kodekonveyor">To receive update on Kodekonveyor </option>
-      <option value="To work with Kodekonveyor">To work with Kodekonveyor</option>
-    </select>
-<input type="submit" name="submit" value="Call to Action" class="submit">
-
-<span style="color:#fff;display: inline-block;padding: 30px 0px 0px;font-size: 14px;text-align: center;width: 100%;">100% Privacy Guaranteed.</span>
-
-</form>
-
-</div>
-</div>
-</div>
-</section>
-
-<section id="mainquat">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<h2>Benefits Of  Kode Konveyor</h2>
-</div>
-</div>
-</div>
-</section> 
-
-
-<div class="clearfix"></div>
-<section id="benefits">
-<div class="container">
-<div class="row">
-
-<div class="col-md-4">
-<div class="box clearfix">
-<center><img src="images/1-1.jpg" class="img-responsive mgb"></center>
-<div class="heading">Free Education</div>
-<p>Kode Konveyor team has created two types of education packages one for beginners and the second one is for experienced developers. The idea behind this is to enable everyone to work alone using java language on TDD & CDD.</p>
-</div>
-</div>
-<div class="col-md-4">
-<div class="box clearfix">
-<center><img src="images/2.jpg" class="img-responsive mgb"></center>
-<div class="heading">Free Mentorship</div>
-<p>At Kode Konveyor we have a pool of mentors ready to help you start your career as a software developer. When you start working on any task you will be assigned to a mentor who will help you in understanding the task and process to be used.</p>
-</div>
-</div>
-<div class="col-md-4">
-<div class="box clearfix">
-<center><img src="images/3.jpg" class="img-responsive mgb"></center>
-<div class="heading">Freelance work </div>
-<p>It’s not like any other freelance work where you have a struggle a lot to get a job. At Kode Konveyor, you will be provided with an ample amount of tasks to work on with your comfort.</p>
-</div>
-</div>
-</div>
-
-
-<div class="row">
-
-<div class="col-md-4">
-<div class="box clearfix">
-<center><img src="images/4.jpg" class="img-responsive mgb"></center>
-<div class="heading">Global Community</div>
-<p>We are a global company creating a global product that is going to restructure software development industry. We have developers from more than 15 countries. Here you will get a chance to interact, network & work with developers from any part of the world.</p>
-</div>
-</div>
-<div class="col-md-4">
-<div class="box clearfix">
-<center><img src="images/5.jpg" class="img-responsive mgb"></center>
-<div class="heading">Flexibility to work</div>
-<p>At Kode Konveyor, we assure that all the developers registered with us get tasks to work on. And it’s totally up to them to choose which task they want to and how many hours of work they are ready to do. So while working on a full-time job you can do some tasks in free time and earn extra</p>
-</div>
-</div>
-<div class="col-md-4">
-<div class="box clearfix">
-<center><img src="images/6.jpg" class="img-responsive mgb"></center>
-<div class="heading">Innovative approach to work </div>
-<p>We have created some great tools which all the developers can use in software development.</p>
-</div>
-</div>
-</div>
-
-
-
-</div>
-</section>
-<div class="clearfix"></div>
-<section style="background:rgba(228,79,61,1);" id="mainquat">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<h2>100% Freelance Work Guranteed</h2>
-</div>
-</div>
-</div>
-</section>
-<div class="clearfix"></div>
-
-<section id="footer">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<div class="col-md-6">
-<p>Kodekonveyor © Copyright 2019 </p>
-</div>
-
-<div class="col-md-6">
-<a target="_blank" href="www.instagram.com"><img style="width: 5%;float: right;margin: 0px 10px;" src="images/instagram-new.png" class="img-responsive logo"></a>
-<a target="_blank" href="www.twitter.com"><img style="width: 5%;float: right;margin: 0px 10px;" src="images/twitter.png" class="img-responsive logo"></a>
-<a target="_blank" href="www.facebook.com"><img style="width: 5%;float: right;margin: 0px 10px;" src="images/fb.png" class="img-responsive logo"></a> 
- 
-
-</div>
-
-</div>
-</div>
-</div>
-</section>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-</body>
-</html>
+}
